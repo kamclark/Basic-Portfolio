@@ -1,24 +1,53 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Portfolio</title>
-    <style>
-        body {
-        background-color: lightblue;
-        }
-    </style>
-    </head>
-    <img src="assets/images/namelogo.png">
-    <p align="right"><a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a></p>
-    <br>
-    <br>
-    <h1>Portfolio</h1>
-    <br>
-    <a href ="http://www.github.com/kamclark"><img src="assets/images/project1.jpg" height = "60" width="60"></a>  <a href="http://www.google.com"><img src="assets/images/project1.jpg" height = "60" width="60"></a><br>
-    <a href ="http://www.github.com/kamclark"><img src="assets/images/project1.jpg" height = "60" width="60"></a>  <a href="http://www.google.com"><img src="assets/images/project1.jpg" height = "60" width="60"></a><br>
-    <a href ="http://www.github.com/kamclark"><img src="assets/images/project1.jpg" height = "60" width="60"></a>  <a href="http://www.google.com"><img src="assets/images/project1.jpg" height = "60" width="60"></a><br>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type ="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head> 
     
+    <body>
+        <div id ="header">
+            <div width=960px id ="nameLogo"><img width ="250px" height = "100%" src="assets/images/namelogo.png">
+            </div>
+                        
+            <div id="navigationMenu">
+                <a href="index.html">About</a>     | <a href="portfolio.html">Portfolio</a>     | <a href="contact.html">Contact</a>
+            </div>    
 
+        </div>
 
+        <div id ="mainWrapper">
 
+           <div id ="mainContent">
+              <h1>Portfolio</h1>
+              <div class="portfolioContainer1">
+                    <img class="portfolioImage" src="assets/images/baseball.jpg">
+                    <p class="portfolioText"><a href="https://github.com/kamclark/Baseball">Baseball</a></p>
+            </div>
+
+            
+
+            <div class="portfolioContainer2">
+                    <img class="portfolioImage" src="assets/images/math.jpg">
+                     <p class="portfolioText"><a href="https://github.com/kamclark/Calc">Calculator</a></p>
+            </div>
+
+            
+            <div class="portfolioContainer1">
+                    <img class="portfolioImage" src="assets/images/bulb.png">
+                     <p class="portfolioText"><a href="https://github.com/kamclark">The Next Facebook</a></p>
+            </div>
+
+            
+
+            <div class="portfolioContainer2">
+                    <img class="portfolioImage" src="assets/images/QuestionMark.png">
+                     <p class="portfolioText"><a href="https://github.com/kamclark">Your Project Next?</a></p>
+            </div>
     
+            </div>
+        </div>
+    <footer><p>Kamari Clark's Copyright</p></footer>
+    </body>
 </html>
